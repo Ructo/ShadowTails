@@ -1,0 +1,387 @@
+{
+  "${ModID}:AdventurerSense": {
+    "NAME": "Adventurer Sense",
+    "DESCRIPTION": "${ModID}:Adventure_Cat NL At the start of your turn, draw !M! additional card.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Adventure_Cat NL At the start of your turn, draw !M! additional card."
+  },
+  "${ModID}:AirMagic": {
+    "NAME": "Air Magic",
+    "DESCRIPTION": "${ModID}:Ninja_Puppy NL Deal !D! damage to ALL enemies",
+    "UPGRADED_DESCRIPTION": "${ModID}:Ninja_Puppy NL Deal !D! damage to ALL enemies"
+  },
+  "${ModID}:Ambush": {
+    "NAME": "Ambush",
+    "DESCRIPTION": "${ModID}:Ninja_Puppy NL Deal !D! damage. Deal double damage if vulnerable or weak.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Ninja_Puppy NL Deal !D! damage. Deal double damage if vulnerable or weak."
+  },
+  "${ModID}:Analyze": {
+    "NAME": "Analyze",
+    "DESCRIPTION": "${ModID}:Adventure_Cat NL Apply !M! Vulnerable. Gain !M! Energy. Exhaust",
+    "UPGRADED_DESCRIPTION": "${ModID}:Adventure_Cat NL Apply !M! Vulnerable. Gain !M! Energy. Draw a card. Exhaust"
+  },
+  "${ModID}:ArrowShot": {
+    "NAME": "Arrow Shot",
+    "DESCRIPTION": "${ModID}:Adventure_Cat NL Deal !D! damage. Draw !M! card(s).",
+    "UPGRADED_DESCRIPTION": "${ModID}:Adventure_Cat NL Deal !D! damage. Draw !M! cards."
+  },
+  "${ModID}:AxeKick": {
+    "NAME": "Axe Kick",
+    "DESCRIPTION": "${ModID}:Ninja_Puppy NL Deal !D! damage.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Ninja_Puppy NL Deal !D! damage."
+  },
+  "${ModID}:BladeRush": {
+    "NAME": "Blade Rush",
+    "DESCRIPTION": "${ModID}:Adventure_Cat NL Deal !D! damage to ALL enemies.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Adventure_Cat NL Deal !D! damage to ALL enemies."
+  },
+  "${ModID}:Bottle": {
+    "NAME": "Bottle",
+    "DESCRIPTION": "${ModID}:Adventure_Cat NL Deal !D! damage. If this kills any enemy, gain a similar potion.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Adventure_Cat NL Deal !D! damage. If this kills any enemy, gain a similar potion."
+  },
+  "${ModID}:Calm": {
+    "NAME": "Calm",
+    "DESCRIPTION": "${ModID}:Adventure_Cat NL Discard all Puppy cards and draw Cat cards equal to the amount.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Adventure_Cat NL Discard all Puppy cards and draw Cat cards equal to the amount."
+  },
+  "${ModID}:Adventure_CatsHat": {
+    "NAME": "Cat's Hat",
+    "DESCRIPTION": "${ModID}:Adventure_Cat NL Swap this card with an ${ModID}:Adventure_Cat card in any pile.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Adventure_Cat NL Swap this card with an ${ModID}:Adventure_Cat card in any pile."
+  },
+  "${ModID}:ChainBallBash": {
+    "NAME": "Chain Ball Bash",
+    "DESCRIPTION": "${ModID}:Ninja_Puppy NL Apply !M! Constrict. Deal Constrict !C! damage.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Ninja_Puppy NL Apply !M! Constrict. Deal Constrict !C! damage."
+  },
+  "${ModID}:ChainWrap": {
+    "NAME": "Chain Wrap",
+    "DESCRIPTION": "${ModID}:Ninja_Puppy NL Deal !D! damage. Apply !M! constrict.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Ninja_Puppy NL Deal !D! damage. Apply !M! constrict."
+  },
+  "${ModID}:ChickenBomb": {
+    "NAME": "Chicken Bomb",
+    "DESCRIPTION": "${ModID}:Adventure_Cat NL Deal !D! damage. Deal !M! to two random enemies.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Adventure_Cat NL Deal !D! damage. Deal !M! to two random enemies."
+  },
+  "${ModID}:ClimbingClaws": {
+    "NAME": "Climbing Claws",
+    "DESCRIPTION": "${ModID}:Ninja_Puppy NL Gain !M! Dexterity",
+    "UPGRADED_DESCRIPTION": "${ModID}:Ninja_Puppy NL Gain !M! Dexterity"
+  },
+  "${ModID}:Decoy": {
+    "NAME": "Decoy",
+    "DESCRIPTION": "${ModID}:Ninja_Puppy NL Gain !M! Artifact. Exhaust",
+    "UPGRADED_DESCRIPTION": "${ModID}:Ninja_Puppy NL Gain !M! Artifact. Exhaust"
+  },
+  "${ModID}:DefendAC": {
+    "NAME": "Defend",
+    "DESCRIPTION": "${ModID}:Adventure_Cat NL Gain !B! Block.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Adventure_Cat NL Gain !B! Block."
+  },
+  "${ModID}:DefendNP": {
+    "NAME": "Defend",
+    "DESCRIPTION": "${ModID}:Ninja_Puppy NL Gain !B! Block.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Ninja_Puppy NL Gain !B! Block."
+  },
+  "${ModID}:DoubleJump": {
+    "NAME": "Double Jump",
+    "DESCRIPTION": "${ModID}:Ninja_Puppy NL Exhaust a card and gain energy equal to the cost.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Ninja_Puppy NL Exhaust a card and gain energy equal to the cost."
+  },
+  "${ModID}:DownwardThrust": {
+    "NAME": "Downward Thrust",
+    "DESCRIPTION": "${ModID}:Adventure_Cat NL Deal !D! damage !M! times.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Adventure_Cat NL Deal !D! damage !M! times."
+  },
+  "${ModID}:EarthMagic": {
+    "NAME": "Earth Magic",
+    "DESCRIPTION": "${ModID}:Ninja_Puppy NL Gain !B! Block",
+    "UPGRADED_DESCRIPTION": "${ModID}:Ninja_Puppy NL Gain !B! Block"
+  },
+  "${ModID}:Enflame": {
+    "NAME": "Enflame",
+    "DESCRIPTION": "${ModID}:Adventure_Cat NL Next Ranged Attack deals !D! damage for every debuff stack on the enemy.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Adventure_Cat NL Next Ranged Attack deals !D! damage for every debuff stack on the enemy."
+  },
+  "${ModID}:EntanglingChain": {
+    "NAME": "Entangling Chain",
+    "DESCRIPTION": "${ModID}:Ninja_Puppy NL Constrict !M!. Reduce enemy strength by constrict this turn. Exhaust",
+    "UPGRADED_DESCRIPTION": "${ModID}:Ninja_Puppy NL Constrict !M!. Reduce enemy strength by constrict this turn. Exhaust"
+  },
+  "${ModID}:FerociousBite": {
+    "NAME": "Ferocious Bite",
+    "DESCRIPTION": "${ModID}:Ninja_Puppy NL Deal !D! damage. Gain !M! Strength.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Ninja_Puppy NL Deal !D! damage. Gain !M! Strength."
+  },
+  "${ModID}:FightOrFlight": {
+    "NAME": "Fight or Flight",
+    "DESCRIPTION": "${ModID}:Both NL Gain X Strength or X+1 Flight",
+    "UPGRADED_DESCRIPTION": "${ModID}:Both NL Gain X+1 Strength or X+2 Flight"
+  },
+  "${ModID}:FireMagic": {
+    "NAME": "Fire Magic",
+    "DESCRIPTION": "${ModID}:Ninja_Puppy NL Deal !D! damage per enemy in combat.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Ninja_Puppy NL Deal !D! damage per enemy in combat."
+  },
+  "${ModID}:FishingPole": {
+    "NAME": "Fishing Pole",
+    "DESCRIPTION": "${ModID}:Adventure_Cat NL Deal !D! Damage. Draw 1 card. Reduce drawn card cost by !M! if unblocked.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Adventure_Cat NL Deal !D! Damage. Draw 1 card. Reduce drawn card cost by !M! if unblocked."
+  },
+  "${ModID}:FlashPowder": {
+    "NAME": "Flash Powder",
+    "DESCRIPTION": "${ModID}:Ninja_Puppy NL Apply !M! Weak and !M! Vulnerable. ",
+    "UPGRADED_DESCRIPTION": "${ModID}:Ninja_Puppy NL Apply !M! Weak and !M! Vulnerable to ALL enemies. "
+  },
+  "${ModID}:GauntletsOfStrength": {
+    "NAME": "Gauntlets of Strength",
+    "DESCRIPTION": "${ModID}:Both NL Gain !M! Strength",
+    "UPGRADED_DESCRIPTION": "${ModID}:Both NL Gain !M! Strength"
+  },
+  "${ModID}:GiantHammer": {
+    "NAME": "Giant Hammer",
+    "DESCRIPTION": "${ModID}:Adventure_Cat NL Deal !D! damage to an enemy, other enemies take half the amount. !M! damage.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Adventure_Cat NL Deal !D! damage to an enemy, other enemies take half the amount. !M! damage."
+  },
+  "${ModID}:GrapplingHook": {
+    "NAME": "Grappling Hook",
+    "DESCRIPTION": "${ModID}:Adventure_Cat NL Gain !B! Block. Move a card from your discard pile to the top of your draw pile.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Adventure_Cat NL Gain !B! Block. Move a card from your discard pile to the top of your draw pile."
+  },
+  "${ModID}:HardTarget": {
+    "NAME": "Hard Target",
+    "DESCRIPTION": "${ModID}:Ninja_Puppy NL Gain !B! Block for each card played this turn.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Ninja_Puppy NL Gain !B! Block for each card played this turn."
+  },
+  "${ModID}:HastyAction": {
+    "NAME": "HastyAction",
+    "DESCRIPTION": "${ModID}:Ninja_Puppy NL Gain !M! Vulnerable. Deal double damage this turn.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Ninja_Puppy NL Gain !M! Vulnerable. Deal double damage this turn."
+  },
+  "${ModID}:IceShot": {
+    "NAME": "Ice Shot",
+    "DESCRIPTION": "${ModID}:Adventure_Cat NL Deal !D! damage. Apply Slow for 1 turn.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Adventure_Cat NL Deal !D! damage. Apply Slow for 1 turn."
+  },
+  "${ModID}:Impulsive": {
+    "NAME": "Impulsive",
+    "DESCRIPTION": "${ModID}:Ninja_Puppy NL Discard all Cat cards and draw Puppy cards equal to the amount.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Ninja_Puppy NL Discard all Cat cards and draw Puppy cards equal to the amount."
+  },
+  "${ModID}:KunaiThrow": {
+    "NAME": "Kunai Throw",
+    "DESCRIPTION": "${ModID}:Ninja_Puppy NL Deal !D! damage. Apply !M! Vulnerable. ",
+    "UPGRADED_DESCRIPTION": "${ModID}:Ninja_Puppy NL Deal !D! damage. Apply !M! Vulnerable. "
+  },
+  "${ModID}:Kusarigama": {
+    "NAME": "Kusarigama",
+    "DESCRIPTION": "${ModID}:Ninja_Puppy NL Deal !D! damage 2 times then apply !M! constrict to a random enemy.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Ninja_Puppy NL Deal !D! damage 2 times then apply !M! constrict to a random enemy."
+  },
+  "${ModID}:LegacysVictory": {
+    "NAME": "Legacy's Victory",
+    "DESCRIPTION": "${ModID}:Adventure_Cat NL Deal !D! damage for each ranged attack played this combat. !C! damage.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Adventure_Cat NL Deal !D! damage for each ranged attack played this combat. !C! damage."
+  },
+  "${ModID}:LightMagic": {
+    "NAME": "Light Magic",
+    "DESCRIPTION": "${ModID}:Ninja_Puppy NL Exhaust all statuses and curses.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Ninja_Puppy NL Exhaust all statuses and curses."
+  },
+  "${ModID}:LightShot": {
+    "NAME": "Light Shot",
+    "DESCRIPTION": "${ModID}:Adventure_Cat NL Deal !D! damage. Apply !M! Weak.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Adventure_Cat NL Deal !D! damage. Apply !M! Weak."
+  },
+  "${ModID}:MartialProwess": {
+    "NAME": "Martial Prowess",
+    "DESCRIPTION": "${ModID}:Ninja_Puppy NL First attack each turn deals !M!% more damage.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Ninja_Puppy NL First attack each turn deals !M!% more damage."
+  },
+  "${ModID}:MeowshroomBomb": {
+    "NAME": "Meowshroom Bomb",
+    "DESCRIPTION": "${ModID}:Adventure_Cat NL Apply !M! Vulnerable. If enemy has 3 or more Vulnerable, Deal !D! damage to ALL enemies.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Adventure_Cat NL Apply !M! Vulnerable. If enemy has 3 or more Vulnerable, Deal !D! damage to ALL enemies."
+  },
+  "${ModID}:MonstrousStrike": {
+    "NAME": "Monstrous Strike",
+    "DESCRIPTION": "${ModID}:Ninja_Puppy NL Deal !D! damage to ALL enemies. If an enemy dies, deal !M! damage to remaining enemies. ",
+    "UPGRADED_DESCRIPTION": "${ModID}:Ninja_Puppy NL Deal !D! damage to ALL enemies. If an enemy dies, deal !M! damage to remaining enemies. "
+  },
+  "${ModID}:MultiShot": {
+    "NAME": "Multi Shot",
+    "DESCRIPTION": "${ModID}:Adventure_Cat NL Deal !D! damage !M! times to random enemies.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Adventure_Cat NL Deal !D! damage !M! times to random enemies."
+  },
+  "${ModID}:MysticalCulimation": {
+    "NAME": "Mystical Culimation",
+    "DESCRIPTION": "${ModID}:Ninja_Puppy NL Deal !D! damage for each elemental card played this combat. !C!",
+    "UPGRADED_DESCRIPTION": "${ModID}:Ninja_Puppy NL Deal !D! damage for each elemental card played this combat. !C!"
+  },
+  "${ModID}:Parry": {
+    "NAME": "Parry",
+    "DESCRIPTION": "${ModID}:Both NL Gain !B! Block NL Gain !M! reflection.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Both NL Gain !B! Block NL Gain !M! reflection."
+  },
+  "${ModID}:PiercingShot": {
+    "NAME": "Piercing Shot",
+    "DESCRIPTION": "${ModID}:Adventure_Cat NL Deal !D! damage to ALL enemies.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Adventure_Cat NL Deal !D! damage to ALL enemies."
+  },
+  "${ModID}:Ninja_PuppysMask": {
+    "NAME": "Puppy's Mask",
+    "DESCRIPTION": "${ModID}:Ninja_Puppy NL Swap this card with a ${ModID}:Ninja_Puppy card in any pile.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Ninja_Puppy NL Swap this card with a ${ModID}:Ninja_Puppy card in any pile."
+  },
+  "${ModID}:QuickWit": {
+    "NAME": "Quick Wit",
+    "DESCRIPTION": "${ModID}:Adventure_Cat NL Gain !B! Block. Draw a card.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Adventure_Cat NL Gain !B! Block. Draw a card."
+  },
+  "${ModID}:ReinforcedArmor": {
+    "NAME": "Reinforced Armor",
+    "DESCRIPTION": "${ModID}:Both NL Gain +!M! Block when a skill is played.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Both NL Gain +!M! Block when a skill is played."
+  },
+  "${ModID}:Resourceful": {
+    "NAME": "Resourceful",
+    "DESCRIPTION": "${ModID}:Adventure_Cat NL When you draw a card, draw another card once per turn.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Adventure_Cat NL When you draw a card, draw another card once per turn."
+  },
+  "${ModID}:RibbonOfPower": {
+    "NAME": "Ribbon of Power",
+    "DESCRIPTION": "${ModID}:Both NL Apply !M! Weak.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Both NL Apply !M! Weak. Apply 1 Feeble"
+  },
+  "${ModID}:Rummage": {
+    "NAME": "Rummage",
+    "DESCRIPTION": "${ModID}:Adventure_Cat NL Return two random cards from your discard pile to your hand.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Adventure_Cat NL Return two chosen cards from your discard pile to your hand."
+  },
+  "${ModID}:ScatterKunai": {
+    "NAME": "Scatter Kunai",
+    "DESCRIPTION": "${ModID}:Ninja_Puppy NL Deal !D! damage to ALL enemies.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Ninja_Puppy NL Deal !D! damage to ALL enemies."
+  },
+  "${ModID}:ShadowArmor": {
+    "NAME": "Shadow Armor",
+    "DESCRIPTION": "${ModID}:Adventure_Cat NL Gain !B! Block. You cannot draw additional cards this turn.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Adventure_Cat NL Gain !B! Block. You cannot draw additional cards this turn."
+  },
+  "${ModID}:ShadowControl": {
+    "NAME": "Shadow Control",
+    "DESCRIPTION": "${ModID}:Both NL Double your Block.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Both NL Double your Block."
+  },
+  "${ModID}:ShadowCutter": {
+    "NAME": "Shadow Cutter",
+    "DESCRIPTION": "${ModID}:Both NL Your next attack is played twice.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Both NL Your next 2 attacks are played twice."
+  },
+  "${ModID}:ShadowDash": {
+    "NAME": "Shadow Dash",
+    "DESCRIPTION": "${ModID}:Both NL Gain !B! Block, Next turn, gain !M! energy.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Both NL Gain !B! Block, Next turn, gain !M! energy."
+  },
+  "${ModID}:ShadowHand": {
+    "NAME": "Shadow Hand",
+    "DESCRIPTION": "${ModID}:Both NL Pull a card from discard",
+    "UPGRADED_DESCRIPTION": "${ModID}:Both NL Pull a card from discard"
+  },
+  "${ModID}:ShadowMist": {
+    "NAME": "Shadow Mist",
+    "DESCRIPTION": "${ModID}:Both NL Gain !B! Block per enemy.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Both NL Gain !B! Block per enemy."
+  },
+  "${ModID}:ShadowShot": {
+    "NAME": "Shadow Shot",
+    "DESCRIPTION": "${ModID}:Both NL Ranged Attacks deal !M! more damage.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Both NL Ranged Attacks deal !M! more damage."
+  },
+  "${ModID}:Slingshot": {
+    "NAME": "Slingshot",
+    "DESCRIPTION": "${ModID}:Adventure_Cat NL Transfer all debuffs on you to an enemy.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Adventure_Cat NL Transfer all debuffs on you to an enemy Twice."
+  },
+  "${ModID}:SmokeEscape": {
+    "NAME": "Smoke Escape",
+    "DESCRIPTION": "${ModID}:Ninja_Puppy NL Gain !B! Block. If last card played was a skill, gain 1 energy.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Ninja_Puppy NL Gain !B! Block. If last card played was a skill, gain 1 energy."
+  },
+  "${ModID}:Spatula": {
+    "NAME": "Spatula",
+    "DESCRIPTION": "${ModID}:Adventure_Cat NL Deal !D! damage. If Fatal, Deal !D! damage equal to its max HP to ALL enemies.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Adventure_Cat NL Deal !D! damage. If Fatal, Deal !D! damage equal to its max HP to ALL enemies."
+  },
+  "${ModID}:StranglingVine": {
+    "NAME": "Strangling Vine",
+    "DESCRIPTION": "${ModID}:Adventure_Cat NL Next Ranged Apply !M! Constrict",
+    "UPGRADED_DESCRIPTION": "${ModID}:Adventure_Cat NL Next Ranged Apply !M! Constrict"
+  },
+  "${ModID}:StrikeAC": {
+    "NAME": "Strike",
+    "DESCRIPTION": "${ModID}:Adventure_Cat NL Deal !D! damage.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Adventure_Cat NL Deal !D! damage."
+  },
+  "${ModID}:StrikeNP": {
+    "NAME": "Strike",
+    "DESCRIPTION": "${ModID}:Ninja_Puppy NL Deal !D! damage.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Ninja_Puppy NL Deal !D! damage."
+  },
+  "${ModID}:Substitution": {
+    "NAME": "Substitution",
+    "DESCRIPTION": "${ModID}:Ninja_Puppy NL Gain !B! Block. When !B! Block is broken, deal !D! damage to enemy.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Ninja_Puppy NL Gain !B! Block. When !B! Block is broken, deal !D! damage to enemy."
+  },
+  "${ModID}:SwiftKicks": {
+    "NAME": "Swift Kicks",
+    "DESCRIPTION": "${ModID}:Both NL Apply !M! temporary Dexterity per attack played each turn.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Both NL Innate NL Apply !M! temporary Dexterity per attack played each turn."
+  },
+  "${ModID}:Teamwork": {
+    "NAME": "Teamwork",
+    "DESCRIPTION": "${ModID}:Both NL Gain 1 Energy the first opposite character card played per turn.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Both NL Innate NL Gain 1 Energy the first opposite character card played per turn."
+  },
+  "${ModID}:TrainingArc": {
+    "NAME": "Training Arc",
+    "DESCRIPTION": "${ModID}:Ninja_Puppy NL At the start of your turn, gain !M! Strength.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Ninja_Puppy NL At the start of your turn, gain !M! Strength. (Gain 1 Dexterity)"
+  },
+  "${ModID}:TuckAndRoll": {
+    "NAME": "Tuck and Roll",
+    "DESCRIPTION": "${ModID}:Ninja_Puppy NL Gain !B! Block. Gain !M! Blur",
+    "UPGRADED_DESCRIPTION": "${ModID}:Ninja_Puppy NL Gain !B! Block. Gain !M! Blur"
+  },
+  "${ModID}:UpgradedShield": {
+    "NAME": "Upgraded Shield",
+    "DESCRIPTION": "${ModID}:Adventure_Cat NL Gain Barricade",
+    "UPGRADED_DESCRIPTION": "${ModID}:Adventure_Cat NL Gain Barricade"
+  },
+  "${ModID}:UpgradedSword": {
+    "NAME": "Upgraded Sword",
+    "DESCRIPTION": "${ModID}:Adventure_Cat NL Deal !D! damage. Increase this card's !D! damage by 5 this combat.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Adventure_Cat NL Deal !D! damage. Increase this card's !D! damage by 8 this combat."
+  },
+  "${ModID}:VoidMagic": {
+    "NAME": "Void Magic",
+    "DESCRIPTION": "${ModID}:Ninja_Puppy NL Remove !M! debuff(s) from you.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Ninja_Puppy NL Remove !M! debuff(s) from you."
+  },
+  "${ModID}:VoidShot": {
+    "NAME": "Void Shot",
+    "DESCRIPTION": "${ModID}:Adventure_Cat NL Remove all Block on enemy. Deal !D! damage.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Adventure_Cat NL Remove all Block on enemy. Deal !D! damage."
+  },
+  "${ModID}:WaterMagic": {
+    "NAME": "Water Magic",
+    "DESCRIPTION": "${ModID}:Ninja_Puppy NL Gain !B! Block X times.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Ninja_Puppy NL Gain !B! Block X times."
+  },
+  "${ModID}:WindShot": {
+    "NAME": "Wind Shot",
+    "DESCRIPTION": "${ModID}:Adventure_Cat NL Deal !D! damage to ALL enemies.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Adventure_Cat NL Deal !D! damage to ALL enemies."
+  }
+}

@@ -1,0 +1,28 @@
+[
+  {
+
+    "NAMES": [
+      "todo",
+      "todos"
+    ],
+    "PROPER_NAME": "TODO",
+    "DESCRIPTION": "TODO: Make your own epic keywords"
+  },
+  {
+
+    "NAMES": [
+     "adventure cat", "adventure_cat"
+    ],
+    "PROPER_NAME": "Adventure Cat",
+    "DESCRIPTION": "Trigger Adventure Cat's Power"
+  },
+  {
+
+    "NAMES": [
+      "ninja puppy","ninja_puppy"
+    ],
+    "PROPER_NAME": "Ninja Puppy",
+    "DESCRIPTION": "Trigger Ninja Puppy's Power"
+  }
+
+]

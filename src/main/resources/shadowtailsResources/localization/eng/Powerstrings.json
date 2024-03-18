@@ -1,0 +1,14 @@
+{
+  "${ModID}:CatPower": {
+    "NAME": "Adventure Cat",
+    "DESCRIPTIONS": [
+      "Gain Block on Skills. Swap to Ninja Puppy to deal 2 damage."
+    ]
+  },
+  "shadowtails:PuppyPower": {
+    "NAME": "Ninja Puppy",
+    "DESCRIPTIONS": [
+      "Deal 1 Damage to a random enemy on Attacks. Swap to Adventure Cat to Draw 1."
+    ]
+  }
+}
