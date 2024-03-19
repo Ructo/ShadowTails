@@ -114,10 +114,15 @@
     "DESCRIPTION": "${ModID}:Ninja_Puppy NL Deal !D! damage. Gain !M! Strength.",
     "UPGRADED_DESCRIPTION": "${ModID}:Ninja_Puppy NL Deal !D! damage. Gain !M! Strength."
   },
-  "${ModID}:FightOrFlight": {
+  "${ModID}:FightOrFlightAtk": {
     "NAME": "Fight or Flight",
-    "DESCRIPTION": "${ModID}:Both NL Gain X Strength or X+1 Flight",
-    "UPGRADED_DESCRIPTION": "${ModID}:Both NL Gain X+1 Strength or X+2 Flight"
+    "DESCRIPTION": "${ModID}:Flip NL When you play an attack, gain !M! Vigor and increase this by !M! this turn.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Flip NL When you play an attack, gain !M! Vigor and increase this by !M! this turn."
+  },
+  "${ModID}:FightOrFlightDef": {
+    "NAME": "Fight or Flight",
+    "DESCRIPTION": "${ModID}:Flip NL When you play a skill, gain !M! Block and increase this by !M! this turn.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Flip NL When you play a skill, gain !M! Block and increase this by !M! this turn."
   },
   "${ModID}:FireMagic": {
     "NAME": "Fire Magic",

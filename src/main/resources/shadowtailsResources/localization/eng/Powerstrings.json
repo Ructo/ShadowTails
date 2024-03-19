@@ -2,13 +2,25 @@
   "${ModID}:CatPower": {
     "NAME": "Adventure Cat",
     "DESCRIPTIONS": [
-      "Gain Block on Skills. Swap to Ninja Puppy to deal 2 damage."
+      "Gain 1 Block on Skills. Swap to Ninja Puppy to deal 2 damage."
     ]
   },
-  "shadowtails:PuppyPower": {
+  "${ModID}:PuppyPower": {
     "NAME": "Ninja Puppy",
     "DESCRIPTIONS": [
       "Deal 1 Damage to a random enemy on Attacks. Swap to Adventure Cat to Draw 1."
+    ]
+  },
+  "${ModID}:FightAtkPower": {
+    "NAME": "Fight or Flight",
+    "DESCRIPTIONS": [
+      "When you play an attack, gain #b Vigor and increase this by + #b this turn."
+    ]
+  },
+  "${ModID}:FlightDefPower": {
+    "NAME": "Fight or Flight",
+    "DESCRIPTIONS": [
+      "When you play a skill, gain #b Block and increase this by + #b this turn."
     ]
   }
 }

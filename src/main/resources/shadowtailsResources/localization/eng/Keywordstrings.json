@@ -23,6 +23,12 @@
     ],
     "PROPER_NAME": "Ninja Puppy",
     "DESCRIPTION": "Trigger Ninja Puppy's Power"
+  },
+  {
+    "PROPER_NAME": "Flip",
+    "NAMES": [
+      "flip"
+    ],
+    "DESCRIPTION": "#yRight #yClick to flip this card to the alternative."
   }
-
 ]

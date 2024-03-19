@@ -252,7 +252,7 @@ public abstract class AbstractEasyCard extends CustomCard {
     }
 
     protected void setDamage(int base) {
-        baseDamage = base; 
+        baseDamage = base;
     }
 
     protected void setBlock(int base, int up) {
@@ -262,7 +262,7 @@ public abstract class AbstractEasyCard extends CustomCard {
     }
 
     protected void setBlock(int base) {
-        baseBlock = base; 
+        baseBlock = base;
     }
 
     protected void setMagic(int base, int up) {
@@ -272,7 +272,7 @@ public abstract class AbstractEasyCard extends CustomCard {
     }
 
     protected void setMagic(int base) {
-        baseMagicNumber = magicNumber = base; 
+        baseMagicNumber = magicNumber = base;
     }
 
     protected void setSecondMagic(int base, int up) {
@@ -282,7 +282,7 @@ public abstract class AbstractEasyCard extends CustomCard {
     }
 
     protected void setSecondMagic(int base) {
-        baseSecondMagic = secondMagic = base; 
+        baseSecondMagic = secondMagic = base;
     }
 
     protected void setThirdMagic(int base, int up) {
@@ -292,7 +292,7 @@ public abstract class AbstractEasyCard extends CustomCard {
     }
 
     protected void setThirdMagic(int base) {
-        baseThirdMagic = thirdMagic = base; 
+        baseThirdMagic = thirdMagic = base;
     }
 
     protected void setSecondDamage(int base, int up) {
@@ -302,7 +302,7 @@ public abstract class AbstractEasyCard extends CustomCard {
     }
 
     protected void setSecondDamage(int base) {
-        baseSecondDamage = secondDamage = base; 
+        baseSecondDamage = secondDamage = base;
     }
 
     protected void setSecondBlock(int base, int up) {
@@ -312,7 +312,7 @@ public abstract class AbstractEasyCard extends CustomCard {
     }
 
     protected void setSecondBlock(int base) {
-        baseSecondBlock = secondBlock = base; 
+        baseSecondBlock = secondBlock = base;
     }
 
     protected void setExhaust(boolean exhausts, boolean exhaustsWhenUpgraded) {
@@ -385,7 +385,7 @@ public abstract class AbstractEasyCard extends CustomCard {
             isInnate = upgradedInnate;
         if (upgradesRetain)
             selfRetain = upgradedRetain;
-    };
+    }
 
     public void update() {
         super.update();
