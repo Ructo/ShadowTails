@@ -1,6 +1,9 @@
 package shadowtails.cards.both;
 
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.common.DrawCardAction;
+import com.megacrit.cardcrawl.actions.common.EmptyDeckShuffleAction;
+import com.megacrit.cardcrawl.actions.common.ShuffleAction;
 import com.megacrit.cardcrawl.actions.unique.DoubleYourBlockAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
@@ -16,19 +19,19 @@ import shadowtails.powers.FightAtkPower;
 import static shadowtails.CharacterFile.Enums.INDIGO_COLOR;
 import static shadowtails.ModFile.makeID;
 
-public class ShadowControl extends AbstractFlipCard {
+public class ShadowControlReturn extends AbstractFlipCard {
     public static final String ID = makeID("ShadowControl");
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
 
-    public ShadowControl() {
-        this(new ShadowControlReturn(null));
+    public ShadowControlReturn() {
+        this(new ShadowControl(null));
     }
 
-    public ShadowControl(AbstractFlipCard linkedCard) {
-        super(ID, 2, CardType.POWER, CardRarity.RARE, CardTarget.SELF, INDIGO_COLOR);
-        baseMagicNumber = magicNumber = 1;
+    public ShadowControlReturn(AbstractFlipCard linkedCard) {
+        super(ID, 1, CardType.POWER, CardRarity.RARE, CardTarget.SELF, INDIGO_COLOR);
+        baseMagicNumber = magicNumber = 4;
         if (linkedCard == null) {
-            this.setLinkedCard(new ShadowControlReturn(this));
+            this.setLinkedCard(new ShadowControl(this));
         } else {
             this.setLinkedCard(linkedCard);
         }
@@ -36,7 +39,11 @@ public class ShadowControl extends AbstractFlipCard {
 
 
     public void use(AbstractPlayer p, AbstractMonster m) {
-        addToBot((AbstractGameAction)new DoubleYourBlockAction((AbstractCreature)p));
+        if (!AbstractDungeon.player.discardPile.isEmpty()) {
+            addToBot((AbstractGameAction)new EmptyDeckShuffleAction());
+            addToBot((AbstractGameAction)new ShuffleAction(AbstractDungeon.player.drawPile, false));
+        }
+        addToBot((AbstractGameAction)new DrawCardAction((AbstractCreature)p, this.magicNumber));
     }
 
     @Override
@@ -56,6 +63,6 @@ public class ShadowControl extends AbstractFlipCard {
     }
     @Override
     public AbstractCard makeCopy() {
-        return new ShadowControl(null);
+        return new ShadowControlReturn(null);
     }
 }

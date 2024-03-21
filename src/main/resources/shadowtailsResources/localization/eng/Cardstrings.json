@@ -279,6 +279,11 @@
     "DESCRIPTION": "${ModID}:Both NL Double your Block.",
     "UPGRADED_DESCRIPTION": "${ModID}:Both NL Double your Block."
   },
+  "${ModID}:ShadowControlReturn": {
+    "NAME": "Shadow Control Return",
+    "DESCRIPTION": "${ModID}:Both NL Shuffle your discard pile into your draw pile. Draw !M! cards.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Both NL Shuffle your discard pile into your draw pile. Draw !M! cards."
+  },
   "${ModID}:ShadowCutter": {
     "NAME": "Shadow Cutter",
     "DESCRIPTION": "${ModID}:Both NL Your next attack is played twice.",

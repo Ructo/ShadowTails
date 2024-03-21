@@ -13,7 +13,6 @@ import static shadowtails.ModFile.makeID;
 
 public class Kusarigama extends AbstractEasyCard {
     public final static String ID = makeID("Kusarigama");
-    // intellij stuff attack, enemy, basic, 6, 3,  , , ,
 
     public Kusarigama() {
         super(ID, 1, CardType.ATTACK, CardRarity.COMMON, CardTarget.ENEMY);

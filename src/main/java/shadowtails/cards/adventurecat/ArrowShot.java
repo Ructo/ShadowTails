@@ -30,6 +30,7 @@ public class ArrowShot extends AbstractEasyCard {
 
     public void upp() {
         super.upp();
+        upgradeName();
         upgradeDamage(1);
         upgradeMagicNumber(1);
     }

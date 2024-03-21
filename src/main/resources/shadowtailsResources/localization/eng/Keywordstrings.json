@@ -17,7 +17,6 @@
     "DESCRIPTION": "Trigger Adventure Cat's Power"
   },
   {
-
     "NAMES": [
       "ninja puppy","ninja_puppy"
     ],
@@ -30,5 +29,12 @@
       "flip"
     ],
     "DESCRIPTION": "#yRight #yClick to flip this card to the alternative."
+  },
+  {
+    "PROPER_NAME": "Both",
+    "NAMES": [
+      "both"
+    ],
+    "DESCRIPTION": "Allow the bonus power for both Ninja Puppy and Adventure Cat."
   }
 ]
