@@ -12,7 +12,7 @@ public class DownwardThrust extends AbstractEasyCard {
     public final static String ID = makeID("DownwardThrust");
 
     public DownwardThrust() {
-        super(ID, 2, CardType.ATTACK, CardRarity.UNCOMMON, CardTarget.ENEMY);
+        super(ID, 2, CardType.ATTACK, CardRarity.RARE, CardTarget.ENEMY);
         baseDamage = 14;
         magicNumber = baseMagicNumber = 2;
         tags.add(CustomTags.PUPPY);

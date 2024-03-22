@@ -10,11 +10,11 @@ import shadowtails.cards.cardvars.CustomTags;
 import static shadowtails.ModFile.makeID;
 import static shadowtails.util.Wiz.atb;
 
-public class FireMagic extends AbstractEasyCard {
-    public final static String ID = makeID("FireMagic");
+public class MysticalCulmination extends AbstractEasyCard {
+    public final static String ID = makeID("MysticalCulmination");
 
 
-    public FireMagic() {
+    public MysticalCulmination() {
         super(ID, 1, CardType.ATTACK, CardRarity.BASIC, CardTarget.ENEMY);
         baseDamage = 9;
         baseMagicNumber = magicNumber = 1;

@@ -13,8 +13,10 @@ import com.megacrit.cardcrawl.powers.AbstractPower;
 import com.megacrit.cardcrawl.powers.EnergizedPower;
 import shadowtails.cards.AbstractEasyCard;
 
+import static shadowtails.ModFile.makeID;
+
 public class ShadowDash extends AbstractEasyCard {
-    public static final String ID = "ShadowDash";
+    public final static String ID = makeID("ShadowDash");
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
 
     public ShadowDash() {

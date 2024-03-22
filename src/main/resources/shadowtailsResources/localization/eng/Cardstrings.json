@@ -44,7 +44,7 @@
     "DESCRIPTION": "${ModID}:Adventure_Cat NL Discard all Puppy cards and draw Cat cards equal to the amount.",
     "UPGRADED_DESCRIPTION": "${ModID}:Adventure_Cat NL Discard all Puppy cards and draw Cat cards equal to the amount."
   },
-  "${ModID}:Adventure_CatsHat": {
+  "${ModID}:CatsHat": {
     "NAME": "Cat's Hat",
     "DESCRIPTION": "${ModID}:Adventure_Cat NL Swap this card with an ${ModID}:Adventure_Cat card in any pile.",
     "UPGRADED_DESCRIPTION": "${ModID}:Adventure_Cat NL Swap this card with an ${ModID}:Adventure_Cat card in any pile."
@@ -219,8 +219,8 @@
     "DESCRIPTION": "${ModID}:Adventure_Cat NL Deal !D! damage !M! times to random enemies.",
     "UPGRADED_DESCRIPTION": "${ModID}:Adventure_Cat NL Deal !D! damage !M! times to random enemies."
   },
-  "${ModID}:MysticalCulimation": {
-    "NAME": "Mystical Culimation",
+  "${ModID}:MysticalCulmination": {
+    "NAME": "Mystical Culmination",
     "DESCRIPTION": "${ModID}:Ninja_Puppy NL Deal !D! damage for each elemental card played this combat. !C!",
     "UPGRADED_DESCRIPTION": "${ModID}:Ninja_Puppy NL Deal !D! damage for each elemental card played this combat. !C!"
   },
@@ -234,7 +234,7 @@
     "DESCRIPTION": "${ModID}:Adventure_Cat NL Deal !D! damage to ALL enemies.",
     "UPGRADED_DESCRIPTION": "${ModID}:Adventure_Cat NL Deal !D! damage to ALL enemies."
   },
-  "${ModID}:Ninja_PuppysMask": {
+  "${ModID}:PuppysMask": {
     "NAME": "Puppy's Mask",
     "DESCRIPTION": "${ModID}:Ninja_Puppy NL Swap this card with a ${ModID}:Ninja_Puppy card in any pile.",
     "UPGRADED_DESCRIPTION": "${ModID}:Ninja_Puppy NL Swap this card with a ${ModID}:Ninja_Puppy card in any pile."
