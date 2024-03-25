@@ -12,10 +12,11 @@ import static shadowtails.ModFile.makeID;
 
 public class KunaiThrow extends AbstractEasyCard {
     public final static String ID = makeID("KunaiThrow");
-    // intellij stuff attack, enemy, basic, 6, 3,  , , ,
+
 
     public KunaiThrow() {
         super(ID, 1, CardType.ATTACK, CardRarity.BASIC, CardTarget.ENEMY);
+        this.setBackgroundTexture("shadowtailsResources/images/512/attack_puppy.png", "shadowtailsResources/images/1024/attack_puppy2.png");
         baseDamage = 4;
         baseMagicNumber = magicNumber = 1;
         tags.add(CustomTags.PUPPY);

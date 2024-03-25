@@ -16,6 +16,7 @@ public class ArrowShot extends AbstractEasyCard {
 
     public ArrowShot() {
         super(ID, 1, CardType.ATTACK, CardRarity.BASIC, CardTarget.ENEMY);
+        this.setBackgroundTexture("shadowtailsResources/images/512/attack_cat.png", "shadowtailsResources/images/1024/attack_cat2.png");
         baseDamage = 9;
         baseMagicNumber = magicNumber = 1;
         tags.add(CustomTags.CAT);

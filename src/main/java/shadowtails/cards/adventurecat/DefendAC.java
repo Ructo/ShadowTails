@@ -13,6 +13,7 @@ public class DefendAC extends AbstractEasyCard {
 
     public DefendAC() {
         super(ID, 1, CardType.SKILL, CardRarity.BASIC, CardTarget.SELF);
+        this.setBackgroundTexture("shadowtailsResources/images/512/skill_cat.png", "shadowtailsResources/images/1024/skill_cat2.png");
         setBlock(5, +3);
         tags.add(CardTags.STARTER_DEFEND);
         tags.add(CustomTags.CAT);
