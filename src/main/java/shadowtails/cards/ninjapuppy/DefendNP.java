@@ -13,7 +13,6 @@ public class DefendNP extends AbstractEasyCard {
 
     public DefendNP() {
         super(ID, 1, CardType.SKILL, CardRarity.BASIC, CardTarget.SELF);
-        this.setBackgroundTexture("shadowtailsResources/images/512/skill_puppy.png", "shadowtailsResources/images/1024/skill_puppy2.png");
         setBlock(5, +3);
         tags.add(CardTags.STARTER_DEFEND);
         tags.add(CustomTags.PUPPY);

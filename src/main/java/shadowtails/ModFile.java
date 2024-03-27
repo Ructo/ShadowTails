@@ -63,14 +63,14 @@ public class ModFile implements
     public static final String SHOULDER1 = makeCharacterPath("mainChar/shoulder.png");
     public static final String SHOULDER2 = makeCharacterPath("mainChar/shoulder2.png");
     public static final String CORPSE = makeCharacterPath("mainChar/corpse.png");
-    private static final String ATTACK_S_ART = makeImagePath("512/attack.png");
-    private static final String SKILL_S_ART = makeImagePath("512/skill.png");
-    private static final String POWER_S_ART = makeImagePath("512/power.png");
+    private static String ATTACK_S_ART;
+    private static String SKILL_S_ART;
+    private static String POWER_S_ART;
+    private static String ATTACK_L_ART;
+    private static String SKILL_L_ART;
+    private static String POWER_L_ART;
     private static final String CARD_ENERGY_S = makeImagePath("512/energy.png");
     private static final String TEXT_ENERGY = makeImagePath("512/text_energy.png");
-    private static final String ATTACK_L_ART = makeImagePath("1024/attack.png");
-    private static final String SKILL_L_ART = makeImagePath("1024/skill.png");
-    private static final String POWER_L_ART = makeImagePath("1024/power.png");
     private static final String CARD_ENERGY_L = makeImagePath("1024/energy.png");
     private static final String CHARSELECT_BUTTON = makeImagePath("charSelect/charButton.png");
     private static final String CHARSELECT_PORTRAIT = makeImagePath("charSelect/charBG.png");
@@ -87,6 +87,32 @@ public class ModFile implements
         }
         return "eng";
     }
+    public static void setCardArtPaths(String cardPath) {
+        // Check the card path and set the art paths accordingly
+        if (cardPath.contains("adventurecat")) {
+            ATTACK_S_ART = makeImagePath("512/attack_cat.png");
+            SKILL_S_ART = makeImagePath("512/skill_cat.png");
+            POWER_S_ART = makeImagePath("512/power_cat.png");
+            ATTACK_L_ART = makeImagePath("1024/attack_cat2.png");
+            SKILL_L_ART = makeImagePath("1024/skill_cat2.png");
+            POWER_L_ART = makeImagePath("1024/power_cat2.png");
+        } else if (cardPath.contains("ninjapuppy")) {
+            ATTACK_S_ART = makeImagePath("512/attack_puppy.png");
+            SKILL_S_ART = makeImagePath("512/skill_puppy.png");
+            POWER_S_ART = makeImagePath("512/power_puppy.png");
+            ATTACK_L_ART = makeImagePath("1024/attack_puppy2.png");
+            SKILL_L_ART = makeImagePath("1024/skill_puppy2.png");
+            POWER_L_ART = makeImagePath("1024/power_puppy2.png");
+        } else {
+            ATTACK_S_ART = makeImagePath("512/attack.png");
+            SKILL_S_ART = makeImagePath("512/skill.png");
+            POWER_S_ART = makeImagePath("512/power.png");
+            ATTACK_L_ART = makeImagePath("1024/attack.png");
+            SKILL_L_ART = makeImagePath("1024/skill.png");
+            POWER_L_ART = makeImagePath("1024/power.png");
+        }
+    }
+
 
     public ModFile() {
         BaseMod.subscribe(this);
