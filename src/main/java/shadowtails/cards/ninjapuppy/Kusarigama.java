@@ -18,7 +18,7 @@ public class Kusarigama extends AbstractEasyCard {
         super(ID, 1, CardType.ATTACK, CardRarity.COMMON, CardTarget.ENEMY);
         baseDamage = 2;
         baseMagicNumber = magicNumber = 2;
-        tags.add(CustomTags.PUPPY);
+        tagAsPuppy();
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {

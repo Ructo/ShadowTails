@@ -17,7 +17,7 @@ public class StrikeAC extends AbstractEasyCard {
         setDamage(6, +3);
         tags.add(CardTags.STRIKE);
         tags.add(CardTags.STARTER_STRIKE);
-        tags.add(CustomTags.CAT);
+        tagAsCat();
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {

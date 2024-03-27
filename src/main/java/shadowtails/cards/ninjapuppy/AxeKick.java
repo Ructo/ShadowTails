@@ -14,7 +14,7 @@ public class AxeKick extends AbstractEasyCard {
     public AxeKick() {
         super(ID, 2, CardType.ATTACK, CardRarity.UNCOMMON, CardTarget.ENEMY);
         baseDamage = 16;
-        tags.add(CustomTags.PUPPY);
+        tagAsPuppy();
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {

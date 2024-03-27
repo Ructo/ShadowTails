@@ -15,7 +15,7 @@ public class ChickenBomb extends AbstractEasyCard {
     public ChickenBomb() {
         super(ID, 1, CardType.ATTACK, CardRarity.UNCOMMON, CardTarget.ALL_ENEMY);
         baseDamage = 10;
-        tags.add(CustomTags.CAT);
+        tagAsCat();
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {

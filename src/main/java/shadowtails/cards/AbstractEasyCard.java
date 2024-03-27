@@ -17,6 +17,7 @@ import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import java.util.function.Consumer;
 import shadowtails.CharacterFile;
+import shadowtails.cards.cardvars.CustomTags;
 import shadowtails.util.CardArtRoller;
 
 import static shadowtails.ModFile.makeImagePath;
@@ -74,6 +75,7 @@ public abstract class AbstractEasyCard extends CustomCard {
 
     private boolean needsArtRefresh = false;
 
+
     public AbstractEasyCard(final String cardID, final int cost, final CardType type, final CardRarity rarity, final CardTarget target) {
         this(cardID, cost, type, rarity, target, CharacterFile.Enums.INDIGO_COLOR);
     }
@@ -95,14 +97,34 @@ public abstract class AbstractEasyCard extends CustomCard {
         }
     }
 
-    @Override
-    protected Texture getPortraitImage() {
-        if (textureImg.contains("ui/missing.png")) {
-            return CardArtRoller.getPortraitTexture(this);
-        } else {
-            return super.getPortraitImage();
+    public void tagAsCat() {
+        this.tags.add(CustomTags.CAT);
+        switch (type) {
+            case ATTACK:
+            case POWER:
+            case SKILL:
+                setBackgroundTexture(makeImagePath("512/adventurecat/" + type + ".png"), makeImagePath("1024/adventurecat/" + type + ".png"));
         }
     }
+        public void tagAsPuppy (){
+            this.tags.add(CustomTags.PUPPY);
+            switch (type) {
+                case ATTACK:
+                case POWER:
+                case SKILL:
+                    setBackgroundTexture(makeImagePath("512/ninjapuppy/" + type + ".png"), makeImagePath("1024/ninjapuppy/" + type + ".png"));
+            }
+        }
+
+    @Override
+    protected Texture getPortraitImage() {
+            if (textureImg.contains("ui/missing.png")) {
+                return CardArtRoller.getPortraitTexture(this);
+            } else {
+                return super.getPortraitImage();
+            }
+
+        }
 
     public static String getCardTextureString(final String cardName, final AbstractCard.CardType cardType) {
         String textureString;

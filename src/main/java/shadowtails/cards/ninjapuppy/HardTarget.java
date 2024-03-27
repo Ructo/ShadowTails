@@ -19,7 +19,7 @@ public class HardTarget extends AbstractEasyCard {
     public HardTarget() {
         super(ID, 1, CardType.SKILL, CardRarity.BASIC, CardTarget.SELF);
         baseBlock = 18;
-        tags.add(CustomTags.PUPPY);
+        tagAsPuppy();
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {

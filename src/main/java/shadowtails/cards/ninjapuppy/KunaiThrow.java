@@ -16,10 +16,9 @@ public class KunaiThrow extends AbstractEasyCard {
 
     public KunaiThrow() {
         super(ID, 1, CardType.ATTACK, CardRarity.BASIC, CardTarget.ENEMY);
-        this.setBackgroundTexture("shadowtailsResources/images/512/attack_puppy.png", "shadowtailsResources/images/1024/attack_puppy2.png");
         baseDamage = 4;
         baseMagicNumber = magicNumber = 1;
-        tags.add(CustomTags.PUPPY);
+        tagAsPuppy();
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {

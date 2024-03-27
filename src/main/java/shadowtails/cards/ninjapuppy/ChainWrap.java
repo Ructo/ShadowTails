@@ -18,7 +18,7 @@ public class ChainWrap extends AbstractEasyCard {
         super(ID, 2, CardType.ATTACK, CardRarity.RARE, CardTarget.ENEMY);
         baseDamage = 8;
         baseMagicNumber = magicNumber = 4;
-        tags.add(CustomTags.PUPPY);
+        tagAsPuppy();
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {

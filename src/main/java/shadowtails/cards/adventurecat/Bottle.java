@@ -19,7 +19,7 @@ public class Bottle extends AbstractEasyCard {
     public Bottle() {
         super(ID, 1, CardType.SKILL, CardRarity.BASIC, CardTarget.SELF);
         baseBlock = 18;
-        tags.add(CustomTags.CAT);
+        tagAsCat();
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {

@@ -17,7 +17,7 @@ public class StrikeNP extends AbstractEasyCard {
         setDamage(6, +3);
         tags.add(CardTags.STRIKE);
         tags.add(CardTags.STARTER_STRIKE);
-        tags.add(CustomTags.PUPPY);
+        tagAsPuppy();
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {

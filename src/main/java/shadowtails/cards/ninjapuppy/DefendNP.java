@@ -15,7 +15,7 @@ public class DefendNP extends AbstractEasyCard {
         super(ID, 1, CardType.SKILL, CardRarity.BASIC, CardTarget.SELF);
         setBlock(5, +3);
         tags.add(CardTags.STARTER_DEFEND);
-        tags.add(CustomTags.PUPPY);
+        tagAsPuppy();
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {

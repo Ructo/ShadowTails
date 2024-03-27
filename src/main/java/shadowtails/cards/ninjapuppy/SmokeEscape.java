@@ -19,7 +19,7 @@ public class SmokeEscape extends AbstractEasyCard {
     public SmokeEscape() {
         super(ID, 1, CardType.SKILL, CardRarity.BASIC, CardTarget.SELF);
         baseBlock = 8;
-        tags.add(CustomTags.PUPPY);
+        tagAsPuppy();
     }
 
     @Override
