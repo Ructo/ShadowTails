@@ -17,7 +17,7 @@ public class Analyze extends AbstractEasyCard {
     public final static String ID = makeID("Analyze");
 
     public Analyze() {
-        super(ID, 1, CardType.SKILL, CardRarity.BASIC, CardTarget.SELF);
+        super(ID, 1, CardType.SKILL, CardRarity.COMMON, CardTarget.SELF);
         baseBlock = 18;
         tagAsCat();
     }

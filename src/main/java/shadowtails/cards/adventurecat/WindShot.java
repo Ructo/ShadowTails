@@ -15,7 +15,7 @@ public class WindShot extends AbstractEasyCard {
 
 
     public WindShot() {
-        super(ID, 1, CardType.ATTACK, CardRarity.BASIC, CardTarget.ENEMY);
+        super(ID, 1, CardType.ATTACK, CardRarity.UNCOMMON, CardTarget.ENEMY);
         baseDamage = 9;
         baseMagicNumber = magicNumber = 1;
         tagAsCat();

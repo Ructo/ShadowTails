@@ -15,7 +15,7 @@ public class EntanglingChain extends AbstractEasyCard {
     public final static String ID = makeID("EntanglingChain");
 
     public EntanglingChain() {
-        super(ID, 1, CardType.ATTACK, CardRarity.COMMON, CardTarget.ENEMY);
+        super(ID, 1, CardType.ATTACK, CardRarity.UNCOMMON, CardTarget.ENEMY);
         baseDamage = 2;
         baseMagicNumber = magicNumber = 2;
         tagAsPuppy();

@@ -15,7 +15,7 @@ public class MonstrousStrike extends AbstractEasyCard {
 
 
     public MonstrousStrike() {
-        super(ID, 1, CardType.ATTACK, CardRarity.BASIC, CardTarget.ENEMY);
+        super(ID, 1, CardType.ATTACK, CardRarity.RARE, CardTarget.ENEMY);
         baseDamage = 9;
         baseMagicNumber = magicNumber = 1;
         tagAsPuppy();

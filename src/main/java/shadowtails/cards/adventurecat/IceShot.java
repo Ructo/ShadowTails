@@ -17,7 +17,7 @@ public class IceShot extends AbstractEasyCard {
 
 
     public IceShot() {
-        super(ID, 1, CardType.ATTACK, CardRarity.BASIC, CardTarget.ENEMY);
+        super(ID, 1, CardType.ATTACK, CardRarity.UNCOMMON, CardTarget.ENEMY);
         baseDamage = 9;
         baseMagicNumber = magicNumber = 1;
         tagAsCat();

@@ -15,7 +15,7 @@ public class DownwardThrust extends AbstractEasyCard {
         super(ID, 2, CardType.ATTACK, CardRarity.RARE, CardTarget.ENEMY);
         baseDamage = 14;
         magicNumber = baseMagicNumber = 2;
-        tags.add(CustomTags.PUPPY);
+        tagAsCat();
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {

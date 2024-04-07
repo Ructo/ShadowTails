@@ -17,7 +17,7 @@ public class Rummage extends AbstractEasyCard {
     public final static String ID = makeID("Rummage");
 
     public Rummage() {
-        super(ID, 1, CardType.SKILL, CardRarity.BASIC, CardTarget.SELF);
+        super(ID, 1, CardType.SKILL, CardRarity.UNCOMMON, CardTarget.SELF);
         baseBlock = 18;
         tagAsCat();
     }

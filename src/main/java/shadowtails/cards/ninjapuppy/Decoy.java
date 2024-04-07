@@ -17,7 +17,7 @@ public class Decoy extends AbstractEasyCard {
     public final static String ID = makeID("Decoy");
 
     public Decoy() {
-        super(ID, 1, CardType.SKILL, CardRarity.BASIC, CardTarget.SELF);
+        super(ID, 1, CardType.SKILL, CardRarity.RARE, CardTarget.SELF);
         baseBlock = 18;
         tagAsPuppy();
     }

@@ -17,7 +17,7 @@ public class Calm extends AbstractEasyCard {
     public final static String ID = makeID("Calm");
 
     public Calm() {
-        super(ID, 1, CardType.SKILL, CardRarity.BASIC, CardTarget.SELF);
+        super(ID, 1, CardType.SKILL, CardRarity.UNCOMMON, CardTarget.SELF);
         baseBlock = 18;
         tagAsCat();
     }

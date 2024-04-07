@@ -17,7 +17,7 @@ public class Substitution extends AbstractEasyCard {
     public final static String ID = makeID("Substitution");
 
     public Substitution() {
-        super(ID, 1, CardType.SKILL, CardRarity.BASIC, CardTarget.SELF);
+        super(ID, 1, CardType.SKILL, CardRarity.UNCOMMON, CardTarget.SELF);
         baseBlock = 18;
         tagAsPuppy();
     }

@@ -15,23 +15,21 @@ public class FireMagic extends AbstractEasyCard {
 
 
     public FireMagic() {
-        super(ID, 1, CardType.ATTACK, CardRarity.BASIC, CardTarget.ENEMY);
-        baseDamage = 9;
-        baseMagicNumber = magicNumber = 1;
+        super(ID, 1, CardType.ATTACK, CardRarity.COMMON, CardTarget.ENEMY);
+        baseDamage = 3;
+        baseMagicNumber = magicNumber = 3;
         tagAsPuppy();
 
 
     }
     public void use(AbstractPlayer p, AbstractMonster m) {
-
-        dmg(m, AbstractGameAction.AttackEffect.NONE);
-        atb(new DrawCardAction(magicNumber));
+        for (int i = 0; i < this.magicNumber; i++)
+            dmg(m, AbstractGameAction.AttackEffect.SLASH_HORIZONTAL);
     }
 
     public void upp() {
         super.upp();
         upgradeName();
-        upgradeDamage(1);
         upgradeMagicNumber(1);
     }
 }

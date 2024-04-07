@@ -8,16 +8,15 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 import com.megacrit.cardcrawl.powers.NoDrawPower;
 import shadowtails.cards.AbstractEasyCard;
-import shadowtails.cards.cardvars.CustomTags;
 
 
 import static shadowtails.ModFile.makeID;
 
-public class StranglingVine extends AbstractEasyCard {
+public class EntanglingShot extends AbstractEasyCard {
     public final static String ID = makeID("StranglingVine");
 
-    public StranglingVine() {
-        super(ID, 1, CardType.SKILL, CardRarity.BASIC, CardTarget.SELF);
+    public EntanglingShot() {
+        super(ID, 1, CardType.SKILL, CardRarity.UNCOMMON, CardTarget.SELF);
         baseBlock = 18;
         tagAsCat();
     }

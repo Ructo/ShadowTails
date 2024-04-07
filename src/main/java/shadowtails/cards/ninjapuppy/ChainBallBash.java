@@ -15,7 +15,7 @@ public class ChainBallBash extends AbstractEasyCard {
 
 
     public ChainBallBash() {
-        super(ID, 1, CardType.ATTACK, CardRarity.BASIC, CardTarget.ENEMY);
+        super(ID, 1, CardType.ATTACK, CardRarity.COMMON, CardTarget.ENEMY);
         baseDamage = 9;
         baseMagicNumber = magicNumber = 1;
         tagAsPuppy();

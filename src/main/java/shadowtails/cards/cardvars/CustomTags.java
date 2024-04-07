@@ -8,6 +8,6 @@ public class CustomTags {
     @SpireEnum
     public static AbstractCard.CardTags CAT;
     @SpireEnum public static AbstractCard.CardTags PUPPY;
-    @SpireEnum public static AbstractCard.CardTags DebuffApplying;
+    @SpireEnum public static AbstractCard.CardTags ARROW;
 
 }

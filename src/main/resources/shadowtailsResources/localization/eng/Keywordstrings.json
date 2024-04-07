@@ -1,15 +1,12 @@
 [
   {
-
     "NAMES": [
-      "todo",
-      "todos"
+      "todo", "todos"
     ],
     "PROPER_NAME": "TODO",
-    "DESCRIPTION": "TODO: Make your own epic keywords"
+    "DESCRIPTION": "TODO"
   },
   {
-
     "NAMES": [
      "adventure cat", "adventure_cat"
     ],

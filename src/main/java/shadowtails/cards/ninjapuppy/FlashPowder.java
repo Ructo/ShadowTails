@@ -17,7 +17,7 @@ public class FlashPowder extends AbstractEasyCard {
     public final static String ID = makeID("FlashPowder");
 
     public FlashPowder() {
-        super(ID, 1, CardType.SKILL, CardRarity.BASIC, CardTarget.SELF);
+        super(ID, 1, CardType.SKILL, CardRarity.COMMON, CardTarget.SELF);
         baseBlock = 18;
         tagAsPuppy();
     }

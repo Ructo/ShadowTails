@@ -146,8 +146,8 @@
   },
   "${ModID}:GiantHammer": {
     "NAME": "Giant Hammer",
-    "DESCRIPTION": "${ModID}:Adventure_Cat NL Deal !D! damage to an enemy, other enemies take half the amount. !M! damage.",
-    "UPGRADED_DESCRIPTION": "${ModID}:Adventure_Cat NL Deal !D! damage to an enemy, other enemies take half the amount. !M! damage."
+    "DESCRIPTION": "${ModID}:Adventure_Cat NL Deal !D! damage to an enemy, other enemies take half the amount.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Adventure_Cat NL Deal !D! damage to an enemy, other enemies take half the amount."
   },
   "${ModID}:GrapplingHook": {
     "NAME": "Grappling Hook",
@@ -353,6 +353,11 @@
     "NAME": "Teamwork",
     "DESCRIPTION": "${ModID}:Both NL Gain 1 Energy the first opposite character card played per turn.",
     "UPGRADED_DESCRIPTION": "${ModID}:Both NL Innate NL Gain 1 Energy the first opposite character card played per turn."
+  },
+  "${ModID}:TippedArrow": {
+    "NAME": "Tipped Arrow",
+    "DESCRIPTION": "${ModID}:Adventure_Cat NL Deal !D! damage.",
+    "UPGRADED_DESCRIPTION": "${ModID}:Adventure_Cat NL Deal !D! damage."
   },
   "${ModID}:TrainingArc": {
     "NAME": "Training Arc",

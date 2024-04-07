@@ -11,6 +11,42 @@
       "Deal 1 Damage to a random enemy on Attacks. Swap to Adventure Cat to Draw 1."
     ]
   },
+  "${ModID}:EntanglingShotPower": {
+    "NAME": "Entangling Shot",
+    "DESCRIPTIONS": [
+      "Apply 2 Constrict to targets."
+    ]
+  },
+  "${ModID}:HeavyShotPower": {
+    "NAME": "Heavy Shot",
+    "DESCRIPTIONS": [
+      "Deal 7 damage to targets."
+    ]
+  },
+  "${ModID}:IceShotPower": {
+    "NAME": "Ice Shot",
+    "DESCRIPTIONS": [
+      "Apply 1 Feeble to targets."
+    ]
+  },
+  "${ModID}:LightShotPower": {
+    "NAME": "Light Shot",
+    "DESCRIPTIONS": [
+      "Apply 1 Weak to targets."
+    ]
+  },
+  "${ModID}:VoidShotPower": {
+    "NAME": "Void Shot",
+    "DESCRIPTIONS": [
+      "Remove all block from targets and deal 5 damage."
+    ]
+  },
+  "${ModID}:WindShotPower": {
+    "NAME": "Wind Shot",
+    "DESCRIPTIONS": [
+      "Deal 3 damage to a random target 2 times."
+    ]
+  },
   "${ModID}:FightAtkPower": {
     "NAME": "Fight or Flight",
     "DESCRIPTIONS": [

@@ -15,7 +15,7 @@ public class Spatula extends AbstractEasyCard {
 
 
     public Spatula() {
-        super(ID, 1, CardType.ATTACK, CardRarity.BASIC, CardTarget.ENEMY);
+        super(ID, 1, CardType.ATTACK, CardRarity.RARE, CardTarget.ENEMY);
         baseDamage = 9;
         baseMagicNumber = magicNumber = 1;
         tagAsCat();

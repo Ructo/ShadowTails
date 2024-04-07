@@ -1,4 +1,4 @@
 package shadowtails.powers;
 
-public class Teamwork {
+public class IceShotPower {
 }
